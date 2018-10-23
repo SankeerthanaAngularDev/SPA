@@ -1,0 +1,70 @@
+ body {
+     border: 2px solid;
+     padding: 10px;
+     height: 600px;
+     width: 1300px;
+ }
+
+ .c1 {
+     width: 1000px;
+     height: 40px;
+     background-color: Seashell;
+     margin-left: 125px;
+     text-align: center;
+     padding-top: 10px
+ }
+
+ a {
+     margin: 70px;
+     font-size: 25px;
+     text-decoration: none;
+     color: crimson;
+
+ }
+
+ a:hover {
+     color: coral;
+ }
+
+ a:active {
+     color: blueviolet;
+ }
+
+ table {
+     width: 400px;
+     height: 400px;
+     margin-top: 10px;
+     border-collapse: collapse;
+     text-align: center;
+ }
+
+ th,
+ td {
+     width: 200px;
+ }
+
+ th {
+     font-size: 30px;
+ }
+
+ ul {
+     font-size: 40px;
+     margin-left: 500px;
+ }
+
+ pre {
+     font-size: 30px;
+     text-align: center;
+     margin-top: 30px;
+ }
+
+ .heading {
+     font-size: 100px;
+     color: olive;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 60px;
+     color: DarkKhaki;
+ }

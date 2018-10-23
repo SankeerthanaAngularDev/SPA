@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="spa.css">
+</head>
+
+<body ng-app="myApp">
+    <div class="c1">
+        <nav>
+            <a href="#!Home">Home</a>
+            <a href="#!Students">Students</a>
+            <a href="#!Courses">Courses</a>
+            <a href="#!ContactUs">ContactUs</a>
+
+        </nav>
+    </div>
+
+    <div ng-view></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
